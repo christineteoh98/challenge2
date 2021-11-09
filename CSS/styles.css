@@ -1,0 +1,152 @@
+/* *********tags*********** */
+body {
+  background-color: #090b1a;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  width: 110%;
+  font-weight: bold;
+  padding: 5% 0 2% 3%;
+  text-align: left;
+  font-size: 2.3rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  display: inline-block;
+  line-height: 1.7;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  padding: 2% 5% 2% 3%;
+}
+
+h4 {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* *********content writings*********** */
+
+.contentblock {
+  background-color: #1b1938;
+  margin: 11% 13%;
+  border-radius: 5px;
+}
+
+/* ********* writings details*********** */
+.item2 {
+  padding: 5% 5% 0;
+}
+
+.insights {
+  color: #aa5cdb;
+}
+
+.bottom-numbers{
+  padding: 10% 5% 9% 3%;
+}
+
+.number-row{
+  padding-right: 30%;
+}
+
+
+/* *********content pic*********** */
+
+ .item1{
+  background:url("image-header-desktop.jpg");
+  background-size: cover;
+  display: flex;
+padding: 0;
+position: relative;
+border-radius: 5px;
+}
+
+.item1:before{
+  content:"";
+  background: rgba(170, 92, 219);
+  width: 100%;
+  opacity: 0.5;
+
+}
+
+@media (max-width:376px){
+
+body{
+  width: 85%;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 7% 0 0;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  display: inline-block;
+  line-height: 1.7;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 13px;
+width: 90%;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.contentblock {
+  margin: auto;
+}
+  /* ********* item 2:writings details*********** */
+.container-fluid{
+  margin: 20% 7%;
+
+}
+
+.bottom-numbers{
+  padding: 0;
+}
+
+.number-row{
+  padding-right: 0;
+}
+
+.number-row p{
+  margin-top: 0;
+}
+
+
+  .item1{
+    height:220px;
+   background:url("image-header-mobile.jpg");
+   background-size: cover;
+   /* display: flex;
+ padding: 0;*/
+ position: relative;
+ order: 1;
+ ;
+ }
+
+ .item2 {
+   padding:2%;
+   order:2;
+   /* position: relative;
+   z-index: -1; */
+ }
+}
